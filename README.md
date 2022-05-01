@@ -1,4 +1,4 @@
-### What is model-clerk?
+### What is ml-clerk?
 ML-clerk, at its core, is a lightweight logging library that helps you keep track of performance, model parameters, timing (or whatever) throughout your data science experiment. 
 
 ### I'm a data scientist. Why should I care?
