@@ -22,6 +22,7 @@ setup(
         'numpy == 1.22.3',
         'pandas == 1.4.2',
         'pygsheets == 2.0.5',
-        'python-dotenv == 0.20.0'
+        'python-dotenv == 0.20.0',
+        'openpyxl == 3.0.9'
     ]
 )

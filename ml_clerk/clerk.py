@@ -30,7 +30,7 @@ class Clerk:
         if '.xlsx' not in file_path:
             raise Exception('Filepath must be an excel file with `.xlsx` extension.')
         try:
-            self.df = pd.read_excel(file_path=file_path, sheet_name=sheet_name)
+            self.df = pd.read_excel(file_path, sheet_name)
         except Exception:
             print("Either the workbook or the sheet doesn't exist. So creating and setting up a new workbook.")
             df = pd.DataFrame()
